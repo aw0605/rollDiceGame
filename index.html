@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>주사위 굴리기 게임</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>주사위를 굴려주세요!</h1>
+      <div id="playerdice-wrapper">
+        <div class="player player1">
+          <h2>Player01</h2>
+          <h3 class="total-score total-score1">0</h3>
+        </div>
+        <div class="dice">
+          <h3 class="dice-number">0</h3>
+          <button class="roll-dice"><img src="dice.png" alt="dice" /></button>
+        </div>
+        <div class="player player2 inactive">
+          <h2>Player02</h2>
+          <h3 class="total-score total-score2">0</h3>
+        </div>
+      </div>
+      <div id="choice-wrapper">
+        <h4>현재 점수: <span class="current-score">0</span></h4>
+
+        <button class="play-stop">Stop</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
